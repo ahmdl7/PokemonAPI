@@ -1,0 +1,38 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(7, auto);
+    background-color: #FFDCAE;
+  }
+  
+  .grid-container > div {
+    padding: 30px;
+    margin: 15px;
+  
+    text-align: center;
+  }
+  
+
+.grass {
+    background-color: #5FD068;
+  }
+  .fire {
+    background-color: #DF7861;
+  }
+  .water {
+    background-color: #3A5BA0;
+  }
+  .normal {
+    background-color: #7F8487;
+  }
+  .bug {
+    background-color: #9EB23B;
+  }
+  .poison {
+    background-color: #541690;
+  }
+  .electric {
+    background-color: #FFCD38;
+  }
+  .ground {
+    background-color: #e2bf65;
+  }
